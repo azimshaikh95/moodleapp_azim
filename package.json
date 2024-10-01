@@ -41,7 +41,8 @@
         "postinstall": "patch-package && cd cordova-plugin-moodleapp && npm install",
         "lang:update-langpacks": "./scripts/update_langpacks.sh",
         "lang:detect-langpacks": "./scripts/update_langpacks.sh detect",
-        "lang:create-langindex": "./scripts/create_langindex.sh"
+        "lang:create-langindex": "./scripts/create_langindex.sh",
+        "resources": "cordova-res ios && cordova-res android && node scripts/resources.js"
     },
     "dependencies": {
         "@angular/animations": "17.3.12",
@@ -155,6 +156,7 @@
         "circular-dependency-plugin": "5.2.2",
         "concurrently": "8.2.2",
         "cordova-plugin-moodleapp": "file:cordova-plugin-moodleapp",
+        "cordova-res": "^0.15.4",
         "cross-env": "7.0.3",
         "eslint": "8.57.1",
         "eslint-plugin-deprecation": "2.0.0",
