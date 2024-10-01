@@ -29,7 +29,7 @@ import { CoreDomUtils } from '@services/utils/dom';
 export class CoreLoginMethodsComponent implements OnInit {
 
     @Input({ transform: toBoolean }) reconnect = false;
-    @Input() siteUrl = '';
+    @Input() siteUrl = 'https://lms.ljinstitutes.org/moodle';
     @Input() siteConfig?: CoreSitePublicConfigResponse;
     @Input() redirectData?: CoreRedirectPayload;
     @Input() showLoginForm = true;
