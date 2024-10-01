@@ -68,6 +68,7 @@
         "zh-tw": "正體中文"
     },
     "siteurl": "https://lms.ljinstitutes.org/moodle",
+	"skipurl": true,
     "wsservice": "moodle_mobile_app",
     "demo_sites": {
         "student": {
